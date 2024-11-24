@@ -102,14 +102,14 @@ export const HeaderPopUserSet = styled.div`
   display: block;
   position: absolute;
   top: 61px;
-  right: 0;
+  right: -100px;
   width: 213px;
-  height: 205px;
+  height: 150px;
   border-radius: 10px;
   border: 0.7px solid rgba(148, 166, 190, 0.4);
   background: #fff;
   box-shadow: 0px 10px 39px 0px rgba(26, 56, 101, 0.21);
-  padding: 34px;
+  padding: 25px;
   text-align: center;
   z-index: 2;
 
@@ -162,11 +162,13 @@ export const UserThemeDark = styled.button`
 `;
 
 export const UserButton = styled.button`
+  margin-top: 10px;
   width: 72px;
   height: 30px;
   background: transparent;
   border-radius: 4px;
   border: 1px solid #76c043;
+  text-align: center;
   & p {
     color: #76c043;
     &:hover {

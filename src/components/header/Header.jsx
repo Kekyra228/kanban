@@ -55,11 +55,6 @@ function Header() {
               <HeaderPopUserSet id="user-set-target">
                 <p>{user.name} </p>
                 <UserMail>{user.login}</UserMail>
-                <UserTheme>
-                  {/* <p> {theme} тема</p>
-								<UserThemeLight onClick={changeTheme} />
-								<UserThemeDark onClick={changeTheme} /> */}
-                </UserTheme>
                 <UserButton>
                   {" "}
                   <Link to={paths.EXIT}>
