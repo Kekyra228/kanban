@@ -11,7 +11,6 @@ import {
   LogoText,
   UserButton,
   UserMail,
-  UserTheme,
 } from "./Header.styled";
 import { Container } from "../Common.styled";
 import { Link } from "react-router-dom";
@@ -41,7 +40,7 @@ function Header() {
         <HeaderBlock>
           <Logo>
             <Link to={paths.MAIN}>
-              <LogoImg src="/logo.svg" alt="logo" />
+              <LogoImg src="/kanban/logo.svg" alt="logo" />
             </Link>
             <LogoText>КАНБАНЧИК</LogoText>
           </Logo>
