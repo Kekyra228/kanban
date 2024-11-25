@@ -6,9 +6,11 @@ import { BrowserRouter } from "react-router-dom";
 import { UserData } from "./contexts/contextUser.jsx";
 import { TasksData } from "./contexts/hooks/contextTasks.jsx";
 
+const basename = "/kanban";
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="kanban">
+    <BrowserRouter basename={basename}>
       <UserData>
         <TasksData>
           <App />
